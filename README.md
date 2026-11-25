@@ -28,16 +28,22 @@ com tons de preto, grafite e dourado.
 - Imagens otimizadas em WebP
 - Links para Instagram e Google Maps
 
+
 ## 📊 Resultados do Lighthouse
 
 | Categoria | Mobile | Desktop |
 |---|---:|---:|
-| Performance | 97 | 98 |
+| Performance | 100 | 100 |
 | Accessibility | 100 | 100 |
 | Best Practices | 100 | 100 |
 | SEO | 100 | 100 |
 
-Resultados obtidos em ambiente de desenvolvimento local.
+Resultados obtidos na versão publicada no GitHub Pages.
+
+## 🌐 Demonstração online
+
+[Acessar landing page](https://odhraco.github.io/giovani-razor/)
+
 
 ## 🎨 Identidade visual
 
