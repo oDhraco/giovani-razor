@@ -1,0 +1,433 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <meta name="description" content="Conheça a Giovani Razor Barbearia, na Vila Antonieta, São Paulo. Confira os serviços e entre em contato.">
+
+    <title>Giovani Razor | Barbearia</title>
+
+    <link rel="icon" type="image/svg+xml" href="assets/icons/favicon.svg?v=2">
+
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <!-- CABEÇALHO -->
+     <header class="header">
+
+        <a href="#inicio" class="logo">
+            GIOVANI<span>RAZOR.</span>
+        </a>
+
+        <button class="menu-toggle"
+                id="menu-toggle"
+                aria-label="Abrir menu"
+                aria-expanded="false"
+                aria-controls="menu">
+            ☰            
+        </button>
+
+        <nav class="nav" id="menu">
+            <a href="#inicio">Início</a>
+            <a href="#servicos">Serviços</a>
+            <a href="#galeria">Galeria</a>
+            <a href="#sobre">Sobre</a>
+            <a href="#contato" class="nav-button">
+                Agendar horário
+            </a>
+        </nav>
+
+     </header>
+
+     <main>
+
+        <!-- SEÇAO PRINCIPAL -->
+        <section class="hero" id="inicio">
+
+            <div class="hero-content">
+
+                <span class="subtitle">
+                    GIOVANI RAZOR BARBEARIA
+                </span>
+
+                <h1>
+                    MAIS QUE UM CORTE.
+                    <span>UMA IDENTIDADE.</span>
+                </h1>
+
+                <p>
+                    Seu estilo merece atenção aos detalhes.
+                    Conheça a Giovani Razor e encontre
+                    o visual que combina com você.
+                </p>
+
+                <div class="hero-buttons">
+
+                    <a href="#contato" class="btn-primary">
+                        AGENDAR MEU HORÁRIO
+                    </a>
+
+                    <a href="#servicos" class="btn-secondary">
+                        CONHECER SERVIÇOS
+                    </a>
+
+                </div>
+
+            </div>
+
+            
+        <div class="hero-visual hero-photo">
+
+            
+        <img
+            src="assets/images/hero.webp"
+            alt="Barbeiro trabalhando no corte de cabelo de um cliente"
+            loading="eager"
+        >
+
+
+            <div class="hero-photo-overlay">
+                <span>GIOVANI RAZOR</span>
+                <p>ESTILO • PRECISÃO • ATITUDE</p>
+            </div>
+
+        </div>
+
+
+        </section>
+
+        <!-- SERVIÇOS -->
+        <section class="services" id="servicos">
+
+            <div class="section-title">
+                <span>NOSSOS SERVIÇOS</span>
+                <h2>SEU VISUAL EM BOAS MÃOS</h2>
+                <p>
+                    Conheça algumas opções de atendimento.
+                </p>
+            </div>
+
+            <div class="services-grid">
+
+                <article class="service-card">
+                    <div class="service-card-top">
+
+                        <svg class="service-icon"
+                            viewBox="0 0 24 24"
+                            aria-hidden="true"
+                            focusable="false">
+                            <circle cx="6" cy="6" r="3"/>
+                            <circle cx="6" cy="18" r="3"/>
+                            <path d="M8.12 8.12 21 21"/>
+                            <path d="M8.12 15.88 21 3"/>
+                        </svg>
+
+                        <span class="service-number">01</span>
+
+                    </div>
+                    <h3>Corte Masculino</h3>
+                    <p>
+                        Um corte pensado para valorizar
+                        seu estilo e sua personalidade.
+                    </p>
+                </article>
+
+                <article class="service-card">
+                    <div class="service-card-top">
+
+                        <svg class="service-icon"
+                            viewBox="0 0 24 24"
+                            aria-hidden="true"
+                            focusable="false">
+                            <circle cx="12" cy="8" r="5"/>
+                            <path d="M7 9v4c0 4 5 7 5 7s5-3 5-7V9"/>
+                            <path d="M9 13l3 2 3-2"/>
+                        </svg>
+
+                        <span class="service-number">02</span>
+
+                    </div>
+                    <h3>Barba</h3>
+                    <p>
+                        Cuidado e acabamento para
+                        completar o seu visual.
+                    </p>
+                </article>
+
+                <article class="service-card">
+                    <div class="service-card-top">
+
+                        <svg class="service-icon"
+                            viewBox="0 0 24 24"
+                            aria-hidden="true"
+                            focusable="false">
+                            <path d="M12 3l2.5 6.5L21 12
+                                    l-6.5 2.5L12 21
+                                    l-2.5-6.5L3 12
+                                    l6.5-2.5Z"/>
+                            <path d="M20 2v4M18 4h4"/>
+                        </svg>
+
+                        <span class="service-number">03</span>
+
+                    </div>
+                    <h3>Corte + Barba</h3>
+                    <p>
+                        Uma combinação para renovar
+                        seu estilo por completo.
+                    </p>
+                </article>
+
+            </div>
+
+        </section>
+
+        <!-- GALERIA -->
+        <section class="gallery" id="galeria">
+
+            <div class="section-title">
+
+                <span>GALERIA</span>
+
+                <h2>ESTILO QUE FALA POR SI.</h2>
+
+                <p>
+                    Inspirações e referências para seu próximo visual.
+                </p>
+
+                <p class="gallery-disclaimer">
+                    Imagens ilustrativas geradas por inteligência artificial.
+                </p>
+
+
+            </div>
+
+            <div class="gallery-grid">
+
+                <!-- IMAGEM 1 -->
+                <button
+                    class="gallery-item"
+                    type="button"
+                    data-caption="Corte e acabamento"
+                    aria-label="Ampliar imagem de corte e acabamento"
+                >
+
+                    
+                    <img
+                        src="assets/images/corte.webp"
+                        alt="Corte masculino com degradê e acabamento preciso"
+                        loading="lazy"
+                        decoding="async"
+                    >
+
+
+                    <span class="gallery-caption">
+                        <strong>Corte & acabamento</strong>
+                        <small>Precisão nos detalhes</small>
+                    </span>
+
+                </button>
+
+                <!-- IMAGEM 2 -->
+                <button
+                    class="gallery-item"
+                    type="button"
+                    data-caption="Estilo e personalidade"
+                    aria-label="Ampliar imagem de estilo e personalidade"
+                >
+
+                    
+                    <img
+                        src="assets/images/estilo.webp"
+                        alt="Corte masculino moderno com cabelo volumoso e estilizado"
+                        loading="lazy"
+                        decoding="async"
+                    >
+
+
+                    <span class="gallery-caption">
+                        <strong>Estilo & personalidade</strong>
+                        <small>Um visual para você</small>
+                    </span>
+
+                </button>
+
+                <!-- IMAGEM 3 -->
+                <button
+                    class="gallery-item"
+                    type="button"
+                    data-caption="Barba e contorno"
+                    aria-label="Ampliar imagem de barba e contorno"
+                >
+
+                    
+                    <img
+                        src="assets/images/barba.webp"
+                        alt="Barbeiro realizando o acabamento da barba com navalha"
+                        loading="lazy"
+                        decoding="async"
+                    >
+
+
+                    <span class="gallery-caption">
+                        <strong>Barba & contorno</strong>
+                        <small>Cuidado em cada detalhe</small>
+                    </span>
+
+                </button>
+
+            </div>
+
+        </section>
+
+
+        <!-- SOBRE -->
+        <section class="about" id="sobre">
+
+            <div class="about-content">
+                <span class="subtitle">CONHEÇA NOSSO ESPAÇO</span>
+
+                <h2>
+                    SEU ESTILO,
+                    <span>NOSSA PAIXÃO.</span>
+                </h2>
+
+                <p>
+                    A Giovani Razor é uma barbearia localizada na Vila Antonieta,
+                    em São Paulo.
+                </p>
+
+                <p>
+                    Venha conhecer o espaço e descubra
+                    o próximo visual que combina com você.
+                </p>
+
+                <a href="#contato" class="btn-primary">
+                    ENTRE EM CONTATO
+                </a>
+            </div>
+
+            <figure class="about-visual">
+                <img
+                    src="assets/images/sobre.webp"
+                    alt="Ambiente ilustrativo de uma barbearia sofisticada"
+                    loading="lazy"
+                    decoding="async"
+                >
+
+                <figcaption>
+                    Imagem ilustrativa gerada por inteligência artificial.
+                </figcaption>
+            </figure>
+
+        </section>
+
+        <!-- AGENDAMENTO -->
+        <section class="contact" id="contato">
+
+            <span class="subtitle">FALE CONOSCO</span>
+
+            <h2>PRONTO PARA RENOVAR O VISUAL?</h2>
+
+            <p>
+                Entre em contato com a barbearia
+                para consultar horários disponíveis.
+            </p>
+                
+            <div class="contact-actions">
+
+                <a
+                    href="https://www.instagram.com/giovanirazor/"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    class="btn-primary"
+                >
+                    AGENDAR PELO INSTAGRAM
+                </a>
+
+                <a
+                    href="https://www.google.com/maps/search/?api=1&query=Rua+Rego+Barros+1742+Vila+Antonieta+Sao+Paulo+SP"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    class="btn-secondary"
+                >
+                    COMO CHEGAR
+                </a>
+
+            </div>
+
+            <div class="address">
+                <h3>ONDE ESTAMOS</h3>
+                <p>
+                    Rua Rego Barros, 1742<br>
+                    Vila Antonieta - São Paulo/SP
+                </p>
+            </div>
+
+        </section>
+
+     </main>
+
+
+    <!-- VISUALIZADOR DE IMAGENS (LIGHTBOX) -->
+
+    <div
+        class="lightbox"
+        id="lightbox"
+        aria-hidden="true"
+        role="dialog"
+        aria-modal="true"
+        aria-label="Visualização ampliada da imagem"
+    >
+
+        <button
+            class="lightbox-close"
+            id="lightbox-close"
+            type="button"
+            aria-label="Fechar imagem"
+        >
+            &times;
+        </button>
+
+        <figure class="lightbox-content">
+
+            <img
+                id="lightbox-image"
+                src=""
+                alt=""
+            >
+
+            <figcaption id="lightbox-caption"></figcaption>
+
+        </figure>
+
+    </div>
+
+
+     <!-- RODAPÉ -->
+    <footer class="footer">
+
+        <a href="#inicio" class="logo">
+            GIOVANI<span>RAZOR.</span>
+        </a>
+
+        <p>
+            Projeto demonstrativo de landing page.
+        </p>
+
+        <a href="https://www.instagram.com/giovanirazor/"
+           target="_blank"
+           rel="noopener noreferrer">
+            Instagram
+        </a>
+
+    </footer>
+
+    <script src="script.js"></script>
+
+</body>
+</html>

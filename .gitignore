@@ -1,0 +1,17 @@
+# Arquivos de configuração local
+.vscode/
+
+# Arquivos temporários do sistema
+Thumbs.db
+.DS_Store
+
+# Arquivos de backup
+backup/
+*.zip
+
+# Imagens PNG originais substituídas por WebP
+assets/images/*.png
+
+# Informações sensíveis
+.env
+.env.*
